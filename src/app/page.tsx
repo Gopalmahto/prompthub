@@ -1,6 +1,9 @@
-import { Hero } from "@/components/hero";
 import { Navbar } from "@/components/layout";
-import { CategoriesSection } from "@/components/sections";
+import { Hero } from "@/components/hero";
+import {
+  CategoriesSection,
+  FeaturedPromptsSection,
+} from "@/components/sections";
 
 export default function Home() {
   return (
@@ -8,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <CategoriesSection />
+      <FeaturedPromptsSection />
     </>
   );
 }
