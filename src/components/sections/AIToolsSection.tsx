@@ -27,7 +27,7 @@ export default function AIToolsSection() {
         </motion.div>
 
         {/* View All Button */}
-        <div className="mt-12 flex justify-center">
+        <div className="mt-12 mb-8 flex justify-center">
           <Button size="lg">
             View All AI Tools
           </Button>
