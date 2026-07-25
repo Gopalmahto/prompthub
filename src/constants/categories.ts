@@ -1,0 +1,68 @@
+import { Category } from "@/types/category";
+
+export const categories: Category[] = [
+  {
+    id: 1,
+    title: "Development",
+    description: "Coding & debugging prompts",
+    promptCount: "18K+",
+    icon: "💻",
+    color: "from-blue-500 to-cyan-500",
+  },
+  {
+    id: 2,
+    title: "Testing",
+    description: "QA & automation prompts",
+    promptCount: "8K+",
+    icon: "🧪",
+    color: "from-green-500 to-emerald-500",
+  },
+  {
+    id: 3,
+    title: "Photo Editing",
+    description: "Photoshop & AI image editing",
+    promptCount: "15K+",
+    icon: "🎨",
+    color: "from-pink-500 to-rose-500",
+  },
+  {
+    id: 4,
+    title: "Video Editing",
+    description: "Premiere, CapCut & more",
+    promptCount: "12K+",
+    icon: "🎬",
+    color: "from-orange-500 to-red-500",
+  },
+  {
+    id: 5,
+    title: "ChatGPT",
+    description: "Prompt engineering",
+    promptCount: "40K+",
+    icon: "🤖",
+    color: "from-violet-500 to-purple-500",
+  },
+  {
+    id: 6,
+    title: "Gemini",
+    description: "Google AI prompts",
+    promptCount: "10K+",
+    icon: "💎",
+    color: "from-cyan-500 to-blue-500",
+  },
+  {
+    id: 7,
+    title: "Midjourney",
+    description: "Image generation",
+    promptCount: "9K+",
+    icon: "🖼️",
+    color: "from-indigo-500 to-violet-500",
+  },
+  {
+    id: 8,
+    title: "Marketing",
+    description: "Ads, SEO & copywriting",
+    promptCount: "14K+",
+    icon: "📈",
+    color: "from-yellow-500 to-orange-500",
+  },
+];

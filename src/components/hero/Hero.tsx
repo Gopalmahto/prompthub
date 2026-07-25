@@ -11,7 +11,7 @@ import HeroStats from "./HeroStats";
 
 export default function Hero() {
   return (
-    <Section className="relative overflow-hidden py-28 md:py-36">
+    <Section className="relative overflow-hidden pt-24 pb-16 md:pt-32 md:pb-20">
       <HeroBackground />
 
       <Container>

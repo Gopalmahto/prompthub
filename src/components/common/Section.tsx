@@ -11,12 +11,7 @@ export default function Section({
   className,
 }: SectionProps) {
   return (
-    <section
-      className={cn(
-        "py-16 md:py-24",
-        className
-      )}
-    >
+    <section className={cn(className)}>
       {children}
     </section>
   );
