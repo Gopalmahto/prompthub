@@ -4,6 +4,7 @@ import {
   CategoriesSection,
   FeaturedPromptsSection,
 } from "@/components/sections";
+import AIToolsSection from "@/components/sections/AIToolsSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <CategoriesSection />
       <FeaturedPromptsSection />
+      <AIToolsSection />
     </>
   );
 }
