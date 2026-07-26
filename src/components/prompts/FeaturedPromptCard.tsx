@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 
 import { Prompt } from "@/types/prompt";
+import Link from "next/link";
 
 interface FeaturedPromptCardProps {
   prompt: Prompt;
@@ -18,6 +19,7 @@ export default function FeaturedPromptCard({
   prompt,
 }: FeaturedPromptCardProps) {
   return (
+    <Link href={`/prompts/${prompt.id}`}>
     <motion.div
       whileHover={{ y: -8 }}
       transition={{ duration: 0.25 }}
@@ -84,5 +86,6 @@ export default function FeaturedPromptCard({
         </motion.div>
       </div>
     </motion.div>
+    </Link>
   );
 }
