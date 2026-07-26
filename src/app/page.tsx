@@ -6,6 +6,7 @@ import FeaturedPromptsSection from "@/components/sections/FeaturedPromptsSection
 import AIToolsSection from "@/components/sections/AIToolsSection";
 import TrendingSection from "@/components/sections/TrendingSection";
 import MarketplaceSection from "@/components/sections/MarketplaceSection";
+import FeaturedCreatorsSection from "@/components/sections/FeaturedCreatorsSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <AIToolsSection />
       <TrendingSection />
       <MarketplaceSection />
+       <FeaturedCreatorsSection />
     </>
   );
 }

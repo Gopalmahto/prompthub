@@ -26,7 +26,7 @@ export default function MarketplaceSection() {
           <MarketplaceGrid items={marketplaceItems} />
         </motion.div>
 
-        <div className="mt-12 flex justify-center">
+        <div className="mt-12 mb-8 flex justify-center">
           <Link
             href="/marketplace"
             className="rounded-full bg-black px-6 py-3 text-sm font-medium text-white transition hover:scale-105"
